@@ -1,5 +1,8 @@
 package com.aalcht.learnspringframework.game;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
 public class PacManGame implements GamingConsol {
 
     public void up() {
@@ -17,4 +20,5 @@ public class PacManGame implements GamingConsol {
     public void right() {
         System.out.println("right");
     }
+
 }
